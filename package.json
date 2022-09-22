@@ -1,0 +1,37 @@
+{
+  "name": "mapboxgl-draw-freeline-drag",
+  "version": "1.0.1",
+  "description": "A Mapbox GL Draw plugin to create a rectangle via click & drag",
+  "main": "build/mapboxgl-draw-freeline-drag.module.js",
+  "module": "build/mapboxgl-draw-freeline-drag.module.js",
+  "browser": "build/mapboxgl-draw-freeline-drag.browser.js",
+  "scripts": {
+    "lint": "eslint .",
+    "build": "npm run build:browser && npm run build:module",
+    "build:browser": "rollup -c ./configuration/rollup.browser.js",
+    "build:module": "rollup -c ./configuration/rollup.module.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndroo/ndroo-mapboxgl-draw-freeline-drag.git"
+  },
+  "keywords": [
+    "mapboxgl",
+    "mapboxgldraw",
+    "carto"
+  ],
+  "author": "Andrew McGrath",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ndroo/ndroo-mapboxgl-draw-freeline-drag.git/issues"
+  },
+  "homepage": "https://github.com/ndroo/ndroo-mapboxgl-draw-freeline-drag.git#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "rollup": "^1.16.2",
+    "rollup-plugin-node-resolve": "^5.0.4",
+    "rollup-plugin-terser": "^5.0.0"
+  }
+}
