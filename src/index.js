@@ -39,7 +39,7 @@ const DrawFreelineDrag = {
     state.counter++;
 
     if (state.path.isValid()) {
-      this.map.fire('draw.create', {
+      this.map.fire('draw.update', {
         features: [state.path.toGeoJSON()]
       });
       return;
