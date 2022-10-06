@@ -1,6 +1,6 @@
 {
   "name": "mapboxgl-draw-freeline-drag",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Mapbox GL Draw plugin to create a rectangle via click & drag",
   "main": "build/mapboxgl-draw-freeline-drag.module.js",
   "module": "build/mapboxgl-draw-freeline-drag.module.js",
