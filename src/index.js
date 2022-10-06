@@ -22,8 +22,6 @@ const DrawFreelineDrag = {
 
     const startPoint = [event.lngLat.lng, event.lngLat.lat];
     state.startPoint = startPoint;
-    console.log(state.path)
-    console.log(startPoint)
     // Starting point - minX,minY
     state.path.addCoordinate(state.counter,event.lngLat.lng, event.lngLat.lat)
     state.counter++;
