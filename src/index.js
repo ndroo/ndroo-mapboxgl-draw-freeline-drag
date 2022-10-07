@@ -60,7 +60,7 @@ const DrawFreelineDrag = {
     }
 
     // Remove latest coordinate
-    state.path.removeCoordinate('0.4');
+    state.path.coordinates.pop();
 
     if (state.path.isValid()) {
       this.map.fire('draw.create', {
